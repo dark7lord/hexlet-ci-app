@@ -1,10 +1,16 @@
-name: CI
+name: Build CI
 
-on: push
+on:
+  push:
+    branches:
+      - main  # указываете свою ветку, например, main, master или другую
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - runs: make setup
+      - name: Checkout repository
+        uses: actions/checkout@v2  # обновленная версия, уточнена версия для поддержки checkout@v2
+      - name: Set up dependencies
+        run: make setup
 
