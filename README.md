@@ -1,4 +1,5 @@
 [![Build CI](https://github.com/dark7lord/hexlet-ci-app/actions/workflows/main.yml/badge.svg)](https://github.com/dark7lord/hexlet-ci-app/actions/workflows/main.yml)
+[![Snyk Security Check](https://github.com/dark7lord/hexlet-ci-app/actions/workflows/security.yaml/badge.svg)](https://github.com/dark7lord/hexlet-ci-app/actions/workflows/security.yaml)
 
 # Example app for CI Hexlet course
 

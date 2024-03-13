@@ -1,4 +1,4 @@
-name: My First workflow
+name: Build CI Check
 
 on:
   push:
